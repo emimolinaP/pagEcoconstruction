@@ -33,3 +33,28 @@
 .bg2{
   animation-delay: 10s;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .header {
+        flex-direction: column; 
+    }
+    .footer {
+        flex-direction: column; 
+        padding: 20px; 
+    }
+    .size-36 {
+        width: 24px; 
+        height: auto; 
+    }
+    .size-12 {
+      width: 24px; 
+      height: 24px; 
+    }
+}
